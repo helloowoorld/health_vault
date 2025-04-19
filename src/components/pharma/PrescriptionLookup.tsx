@@ -179,6 +179,7 @@ const PrescriptionLookup: React.FC<PrescriptionLookupProps> = ({ onAddToQueue })
     });
   };
 
+  
   const handleAddToQueueClick = async (prescription: Prescription) => {
     if (!user?.id) {
       setError('Pharma user not logged in.');
